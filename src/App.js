@@ -8,6 +8,7 @@ import Feed from './components/Feed/Feed'
 import LoginRetailer from './components/Login/LoginRetailer'
 import LoginFarmer from "./components/Login/LoginFarmer"
 import Choose from './components/Choose/Choose'
+import Techniques from './components/Techniques/Techniques'
 function App() {
 
     // const [kisan, setKisans] = useState([])
@@ -35,6 +36,7 @@ function App() {
                     <Route exact path='/crops' element={<Crops />} />
                     <Route exact path='/schemes' element={<Schemes />} />
                     <Route exact path='/feed' element={<Feed />} />
+                    <Route exact path='/techniques' element={<Techniques />} />
                 </Routes>
 
             </BrowserRouter>

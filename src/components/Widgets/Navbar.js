@@ -15,12 +15,16 @@ function Navbar() {
                                 <Link class="nav-link active" aria-current="page" to={'/crops'}>Crops</Link>
                             </li>
                             <li class="nav-item">
+                                <Link class="nav-link active" aria-current="page" to={'/techniques'}>Farming techniques</Link>
+                            </li>
+                            <li class="nav-item">
                                 <Link class="nav-link active" aria-current="page" to={'/schemes'} >schemes</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link active" aria-current="page"to={'/feed'}>feed</Link>
+                                <Link class="nav-link active" aria-current="page" to={'/feed'}>feed</Link>
                             </li>
-                            
+
+
 
 
 

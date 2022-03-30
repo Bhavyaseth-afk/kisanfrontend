@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { makeStyles } from "@mui/styles"
+import axios from "axios"
 const useStyles = makeStyles({
     container: {
         width: "40vw",
@@ -37,6 +38,9 @@ function LoginFarmer() {
     const [farmer, setfarmer] = useState(initialfarmer)
     const submihandler = (e) => {
         e.preventDefault()
+
+        axios.post("http://127.0.0.1:8000/api/farmer/", farmer)
+
         console.log(farmer)
     }
     return (
@@ -61,7 +65,7 @@ function LoginFarmer() {
                         })
                     }} placeholder="Enter number" />
                 </div>
-                
+
                 <button type="submit" onClick={submihandler} className="btn btn-primary">Submit</button>
             </form>
         </div>
