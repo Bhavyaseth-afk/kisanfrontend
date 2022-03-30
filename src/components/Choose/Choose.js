@@ -52,7 +52,7 @@ function Choose() {
                         <button className={` btn btn-secondary ${classes.button}`} onCLick={(e) => redirectFarmer()} type="button" >Farmer </button>
                     </Link>
                     <Link to='/loginretailor'>
-                        <button className={` btn btn-secondary ${classes.button}`} onCLick={(e) => redirectFarmer()} type="button" >Retailor </button>
+                        <button className={` btn btn-secondary ${classes.button}`} onCLick={(e) => redirectFarmer()} type="button" >Retailer </button>
                     </Link>
                 </div>
             </form >

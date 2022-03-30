@@ -31,24 +31,25 @@ const useStyles = makeStyles({
 function Login() {
     const classes = useStyles()
     const initialretailor = {
-        name: "",
-        number: "",
+        retname: "",
+        phnumber: "",
         address: "",
-        listitems: "",
+        list_items: "",
     }
 
     const [retailor, setretailor] = useState(initialretailor)
     const submihandler = (e) => {
         e.preventDefault()
+        axios.post("http://127.0.0.1:8000/api/retailer/", retailor)
         console.log(retailor)
     }
     return (
         <div className={classes.container}>
-            <h1>Retailor Registration </h1>
+            <h1>Retailer Registration </h1>
             <form >
                 <div className="form-group">
 
-                    <input type="text" name="name" onChange={(e) => {
+                    <input type="text" name="retname" onChange={(e) => {
                         setretailor({
                             ...retailor,
                             [e.target.name]: e.target.value
@@ -57,7 +58,7 @@ function Login() {
 
                 </div>
                 <div className="form-group">
-                    <input type="number" name='number' onChange={(e) => {
+                    <input type="number" name='phnumber' onChange={(e) => {
                         setretailor({
                             ...retailor,
                             [e.target.name]: e.target.value
@@ -73,7 +74,7 @@ function Login() {
                     }} className={` ${classes.input}  form-control`} placeholder="Enter Addres" />
                 </div>
                 <div className="form-group">
-                    <textarea type="text" name='listitems' onChange={(e) => {
+                    <textarea type="text" name='list_items' onChange={(e) => {
                         setretailor({
                             ...retailor,
                             [e.target.name]: e.target.value

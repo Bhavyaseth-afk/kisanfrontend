@@ -9,25 +9,7 @@ import LoginRetailer from './components/Login/LoginRetailer'
 import LoginFarmer from "./components/Login/LoginFarmer"
 import Choose from './components/Choose/Choose'
 function App() {
-<<<<<<< HEAD
-    const [kisan, setKisans] = useState([])
-    useEffect(() => {
-        navigator.geolocation.getCurrentPosition(function(position) {
-            console.log("Latitude is :", position.coords.latitude);
-            console.log("Longitude is :", position.coords.longitude);
-          });
-        async function getAllkisan() {
-            try {
-                const kisans = await axios.get('http://127.0.0.1:8000/api/kisan/')
-                console.log(kisans.data)
-                setKisans(kisans.data)
-            } catch (err) {
-                console.log(err)
-            }
-        }
-        getAllkisan()
-    }, [])
-=======
+
     // const [kisan, setKisans] = useState([])
     // useEffect(() => {
     //     async function getAllkisan() {
@@ -41,7 +23,7 @@ function App() {
     //     }
     //     getAllkisan()
     // }, [])
->>>>>>> db1c2ef16eefa0411436af3084f227d90041a02d
+
     return (
         <div className='App'>
             <BrowserRouter>
