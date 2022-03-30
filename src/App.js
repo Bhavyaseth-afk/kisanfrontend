@@ -3,6 +3,10 @@ import axios from "axios"
 function App() {
     const [kisan, setKisans] = useState([])
     useEffect(() => {
+        navigator.geolocation.getCurrentPosition(function(position) {
+            console.log("Latitude is :", position.coords.latitude);
+            console.log("Longitude is :", position.coords.longitude);
+          });
         async function getAllkisan() {
             try {
                 const kisans = await axios.get('http://127.0.0.1:8000/api/kisan/')
