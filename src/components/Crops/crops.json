@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "name": "Fintone",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+      "season": "Carvedilol",
+      "price": "$415.46",
+      "image": "http://dummyimage.com/101x100.png/ff4444/ffffff"
+    },
+    {
+      "id": 2,
+      "name": "Zontrax",
+      "description": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+      "season": "Risperidone",
+      "price": "$468.98",
+      "image": "http://dummyimage.com/157x100.png/dddddd/000000"
+    },
+    {
+      "id": 3,
+      "name": "Subin",
+      "description": "In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+      "season": "Stona-S",
+      "price": "$779.82",
+      "image": "http://dummyimage.com/110x100.png/cc0000/ffffff"
+    },
+    {
+      "id": 4,
+      "name": "Namfix",
+      "description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+      "season": "Topiramate",
+      "price": "$393.79",
+      "image": "http://dummyimage.com/215x100.png/ff4444/ffffff"
+    },
+    {
+      "id": 5,
+      "name": "Rank",
+      "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+      "season": "Antibiotic",
+      "price": "$242.71",
+      "image": "http://dummyimage.com/165x100.png/cc0000/ffffff"
+    },
+    {
+      "id": 6,
+      "name": "Viva",
+      "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
+      "season": "Ciprofloxacin",
+      "price": "$628.41",
+      "image": "http://dummyimage.com/133x100.png/cc0000/ffffff"
+    },
+    {
+      "id": 7,
+      "name": "Duobam",
+      "description": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+      "season": "Gabapentin",
+      "price": "$314.02",
+      "image": "http://dummyimage.com/217x100.png/dddddd/000000"
+    },
+    {
+      "id": 8,
+      "name": "Bitchip",
+      "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+      "season": "Promethazine Hydrochloride",
+      "price": "$365.63",
+      "image": "http://dummyimage.com/102x100.png/dddddd/000000"
+    },
+    {
+      "id": 9,
+      "name": "Span",
+      "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
+      "season": "Chloraseptic Sore Throat Menthol",
+      "price": "$205.85",
+      "image": "http://dummyimage.com/137x100.png/ff4444/ffffff"
+    },
+    {
+      "id": 10,
+      "name": "Duobam",
+      "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+      "season": "Amlodipine Besylate",
+      "price": "$739.83",
+      "image": "http://dummyimage.com/102x100.png/cc0000/ffffff"
+    }
+  ]
+  
