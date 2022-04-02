@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from '../Widgets/Navbar'
 import axios from 'axios'
+import JSONDATA from "./crops.json"
 function Crops() {
     const getAllCrops = async () => {
-        const crp = await axios.get('http://127.0.0.1:8000/api/crops/')
-        setcrops(crp.data)
-        console.log(crp.data)
+        // const crp = await axios.get('http://127.0.0.1:8000/api/crops/')
+        setcrops(JSONDATA)
+        // console.log(crp.data)
     }
     useEffect(() => {
         getAllCrops()
@@ -18,9 +19,14 @@ function Crops() {
 
             {crops.map(item => {
                 return (
-                    <div>
-                        <h1>{item.cropname}</h1>
+                    <div style={{
+                        border :"2px solid  red"
+                    }}>
+                        <h1>{item.name}</h1>
+                        <img src={item.image} />
                         <p>{item.description}</p>
+                        <p>season = {item.season}</p>
+
                         <p>price:{item.price}</p>
                     </div>
                 )
